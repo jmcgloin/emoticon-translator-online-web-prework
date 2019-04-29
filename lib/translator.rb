@@ -2,7 +2,7 @@ require 'yaml'
 require 'pry'
 
 def load_library(lib)
-  YAML.load_file(lib)
+  emotes = YAML.load_file(lib)
   binding.pry
 end
 
