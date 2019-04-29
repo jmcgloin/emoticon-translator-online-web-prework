@@ -13,6 +13,7 @@ def load_library(lib)
     output["get_meaning"][entry[1][1]] = entry[0]
   # binding.pry
   end
+  output
 end
 
 def get_japanese_emoticon
