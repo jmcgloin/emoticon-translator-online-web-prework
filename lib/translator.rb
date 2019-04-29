@@ -10,7 +10,7 @@ def load_library(lib)
   emotes.each do
     |entry|
     output["get_emoticon"][entry[0]] = entry[1][1]
-    output["get_emoticon"][entry[1][0] = entry[1][1]
+    output["get_emoticon"][entry[1][0]] = entry[1][1]
     output["get_meaning"][entry[1][1]] = entry[0]
   # binding.pry
   end
