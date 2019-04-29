@@ -11,7 +11,7 @@ def load_library(lib)
     |entry|
     output["get_emoticon"][entry[0]] = entry[1][1]
     output["get_meaning"][entry[1][1]] = entry[0]
-  binding.pry
+  # binding.pry
   end
 end
 
